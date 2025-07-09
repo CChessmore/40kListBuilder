@@ -1,4 +1,5 @@
 export default function ArmyList({ units, onRemove }) {
+
   const TYPE_ORDER = [
     "Epic Hero",
     "Character",
@@ -44,10 +45,13 @@ export default function ArmyList({ units, onRemove }) {
                   </li>
                 ))}
               </ul>
+              
             </section>
           )
         )
       )}
+
     </div>
   );
+
 }
